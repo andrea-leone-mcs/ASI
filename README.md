@@ -7,12 +7,13 @@ The presentation of the material follows a common thread based on the probabilis
 This advanced course is complemented by these lab sessions to guide students through the design and validation of the methods developed during the lectures.
 
 ### Run the code
-To run the code, we suggest you create a python environment using Conda
+To run the code, it's suggested to create a python environment using Conda
 ```shell
-> conda create --name asi
+> conda env create -f environment.yml
 ```
-Once the installation has completed, you can activate the new environment with 
+This will create a new environment called `asi` with all the necessary packages to run the code.\
+Once the installation is complete, activate the environment with 
 ```shell
 > conda activate asi
 ```
-Finally open the notebook with your favorite editor, like VS Code.
+Finally, open a notebook with your favorite editor and try to run the code or simply enjoy the results.
